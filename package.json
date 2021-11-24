@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MariselElizondo/coderbeelizondo/issues"
   },
-  "homepage": "https://github.com/MariselElizondo/coderbeelizondo#readme"
+  "homepage": "https://github.com/MariselElizondo/coderbeelizondo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
