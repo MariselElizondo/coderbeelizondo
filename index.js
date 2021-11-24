@@ -1,6 +1,10 @@
- const express = require('express')
+const express = require('express')
 const app = express()
 const port = 8080
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
 let products = [
   {
@@ -23,12 +27,10 @@ let products = [
   }
  ]
  
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+app.get('/', (req, res) => {
+  res.send('Página de inicio')
 })
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
 app.get('/productos', (req, res) => {
   res.send('<h1>Productos</h1>', products)
 })
