@@ -1,0 +1,19 @@
+{
+  "name": "coderbeelizondo",
+  "version": "1.0.0",
+  "description": "Ejercicio servidores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariselElizondo/coderbeelizondo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariselElizondo/coderbeelizondo/issues"
+  },
+  "homepage": "https://github.com/MariselElizondo/coderbeelizondo#readme"
+}
